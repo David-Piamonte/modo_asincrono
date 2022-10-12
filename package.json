@@ -1,0 +1,24 @@
+{
+  "name": "modo_asincrono",
+  "version": "1.0.0",
+  "description": "modo asincrono",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon promises/1_simple.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Piamonte/modo_asincrono.git"
+  },
+  "author": "David Piamonte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-Piamonte/modo_asincrono/issues"
+  },
+  "homepage": "https://github.com/David-Piamonte/modo_asincrono#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
