@@ -49,7 +49,16 @@ function fallo(status) {
 }
 
 //invocar get_data
-get_data(url).then(exito).catch(fallo)
+const f = async function(){
+    try {
+        let response = await get_data(url)
+        exito(response)
+    } catch (status) {
+        fallo(status)
+    }
+}
+f()
+//get_data(url).then(exito).catch(fallo)
 
 //    get_data(url).then(function(data){
 //    exito(data)
